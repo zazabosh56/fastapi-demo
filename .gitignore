@@ -1,0 +1,42 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Fichiers temporaires
+*.swp
+*.swo
+*.log
+*.sqlite3
+
+# Configs IDE
+.vscode/
+.idea/
+*.iml
+
+# Fichiers de build / distribution
+build/
+dist/
+*.egg-info/
+
+# Fichiers de test coverage
+.coverage
+htmlcov/
+*.cover
+.pytest_cache/
+
+# Fichiers d'environnement (si tu en utilises)
+.env
+.env.*
+
+# Dossier __pycache__ dans tous les sous-dossiers
+**/__pycache__/
